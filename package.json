@@ -2,9 +2,10 @@
   "name": "chaiorbackend",
   "version": "1.0.0",
   "description": "a backend code at chai or code in youtube",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -13,7 +14,11 @@
   ],
   "author": "prince vaghani",
   "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.1"
+  },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
   }
 }
