@@ -14,11 +14,8 @@
   ],
   "author": "prince vaghani",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^17.2.1"
-  },
   "devDependencies": {
     "nodemon": "^3.1.10",
-    "prettier": "^3.6.2"
+    "prettier": "11.0.0"
   }
 }
